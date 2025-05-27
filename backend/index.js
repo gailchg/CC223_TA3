@@ -7,6 +7,10 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
+app.get('/', (req, res) => {
+      res.send('✅ CompanionBot backend is live!');
+    });
+
 app.post('/api/chat', async (req, res) => {
   const { message } = req.body;
 
@@ -25,9 +29,7 @@ app.post('/api/chat', async (req, res) => {
       }
     );
 
-    app.get('/', (req, res) => {
-      res.send('✅ CompanionBot backend is live!');
-    });
+
 
 
     res.json({ reply: response.data.choices[0].message.content });
