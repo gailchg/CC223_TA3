@@ -1,0 +1,27 @@
+[debug] [2025-05-26T19:00:59.747Z] ----------------------------------------------------------------------
+[debug] [2025-05-26T19:00:59.750Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\cochi\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2025-05-26T19:00:59.750Z] CLI Version:   14.4.0
+[debug] [2025-05-26T19:00:59.750Z] Platform:      win32
+[debug] [2025-05-26T19:00:59.750Z] Node Version:  v22.14.0
+[debug] [2025-05-26T19:00:59.751Z] Time:          Tue May 27 2025 03:00:59 GMT+0800 (Philippine Standard Time)
+[debug] [2025-05-26T19:00:59.751Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-05-26T19:00:59.756Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-05-26T19:00:59.756Z] > authorizing via signed-in user (coching.gladysgail@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\cochi\CC223_TA3
+
+[debug] [2025-05-26T19:01:14.359Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\cochi\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:267:49)
+    at listOnTimeout (node:internal/timers:594:17)
+    at process.processTimers (node:internal/timers:529:7)
+[error] 
+[error] Error: An unexpected error has occurred.
