@@ -34,9 +34,10 @@ app.post('/api/chat', async (req, res) => {
 
     res.json({ reply: response.data.choices[0].message.content });
   } catch (error) {
-    console.error('OpenRouter Error:', error.message);
+    console.error('OpenRouter Error:', error.response?.data || error.message);
     res.status(500).json({ error: 'Something went wrong with OpenRouter API' });
   }
+
 });
 
 const PORT = process.env.PORT || 5000;
