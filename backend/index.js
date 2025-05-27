@@ -25,6 +25,11 @@ app.post('/api/chat', async (req, res) => {
       }
     );
 
+    app.get('/', (req, res) => {
+      res.send('✅ CompanionBot backend is live!');
+    });
+
+
     res.json({ reply: response.data.choices[0].message.content });
   } catch (error) {
     console.error('OpenRouter Error:', error.message);
